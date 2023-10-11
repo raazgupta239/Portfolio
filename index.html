@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raaz-Portfolio Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <a href="/"></a>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="heading">
+        <div class="lefthead">Raaz's Portfolio</div>
+        <div class="righthead">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <span class="voilet"> Raaz.</span>
+                <div>And I am a</div>
+                <span id="element"></span>
+                
+                <div class="first-child">
+                <div class="CV"><button>Dowload CV</button></div>
+                <div class="ViewProjects"><button>Projects</button></div>
+        
+            </div>
+            </div>
+            <div class="rightsection">
+                <img src="20-512-116373432" alt="" />
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: [
+                "Web Developer.",
+                "Software Engineer.",
+                "Front-end Developer.",
+            ],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

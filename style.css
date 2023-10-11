@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(21, 17, 25);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(27, 21, 33)
+}
+.lefthead{
+    font-size: 1.8rem;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0px 30px;
+    list-style:none;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(170, 34, 170);
+    font-size: 1.01rem;
+}
+#element{
+    color: rgb(170, 34, 170);
+
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin:30px 0;
+}
+.first >div{
+    width: 30%;
+}
+.leftsection{
+    /* background-color: pink;  */
+    font-size: 2.8rem;
+    margin: 80px 0;
+
+}
+.rightsection img{
+    margin:20px 30px;
+}
+.voilet{
+    color: purple;
+}
+.first-child{
+    display: flex;
+    align-items: center;
+}
+.first-child div button{
+    padding: 10px;
+    margin: 8px 12px;
+    font-size: 1.9rem;
+    background-color:rgb(49, 49, 115) ;
+    border-radius:13px;
+}
+.first-child div button:hover{
+    padding: 10px;
+    border-radius:13px;
+    margin: 8px 12px;
+    font-size: 1.9rem;
+    background-color:rgb(148 148 202);
+}
